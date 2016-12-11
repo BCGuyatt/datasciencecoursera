@@ -1,8 +1,8 @@
 ## This is the README file for the Getting and Cleaning Data Project
 
-Aim of the porject:
+### Aim of the porject:
 
-Instructions
+### Instructions
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 Review criterialess 
@@ -33,7 +33,7 @@ Good luck!
 
 
 
-To run script for this project:
+## To run script for this project:
 
 1) From the GitHub Repository download the following files to your working directory: 
 Dataset.zip, 
@@ -51,7 +51,7 @@ this working directory should contain the zip file folder
 text file and generates the codebook at the end using the 
 generateMarkdown.Rmd file.
 
-Outputs produced
+## Outputs produced
 
 Tidy dataset file DatasetHumanActivityRecognitionUsingSmartphones.txt (tab-delimited text)
 Codebook file codebook.md (Markdown)
