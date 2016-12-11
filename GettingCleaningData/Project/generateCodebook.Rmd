@@ -1,0 +1,48 @@
+---
+title: "generateCodebook"
+author: "BCGuyatt"
+date: "11/12/2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Getting & Cleaning Data - Project Codebook
+
+This is the codebook for the Getting & Cleaning Data project output,
+named TidyDat
+
+TidyDat Data Structure:
+```{r TidyDat}
+summary(TidyDat)
+```
+
+List of Key Variables in the TidyDat data table
+```{r }
+key(TidyDat)
+```
+
+The first few rows of the TidyDat data table
+```{r }
+TidyDat
+```
+
+Summary of variables
+```{r }
+summary(TidyDat)
+```
+
+List all possible combinations of features
+```{r }
+TidyDat[, .N, by=c(names(TidyDat)[grep("^feat", names(TidyDat))])]
+```
+
+## Save to file
+
+Save data table objects to a tab-delimited text file called DatasetHumanActivityRecognitionUsingSmartphones.txt.
+```{r }
+f <- file.path(pname, "DatasetHumanActivityRecognitionUsingSmartphones.txt")
+write.table(TidyDat, f, quote=FALSE, sep="\t", row.names=FALSE)
+```
