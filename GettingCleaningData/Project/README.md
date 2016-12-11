@@ -36,10 +36,10 @@ Good luck!
 ## To run script for this project:
 
 1. From the GitHub Repository download the following files to your working directory: 
-* Dataset.zip, 
-* generateCodebook.Rmd, 
-* README.txt, 
-* run_analysis.r.
+..1. Dataset.zip, 
+..2. generateCodebook.Rmd, 
+..3.  README.txt, 
+..4. run_analysis.r.
 2. Unzip the Dataset.zip using a archive package such as 7zip. 
 This must be unpacked to a sub folder in the working directory called: 
 "UCI HAR Dataset"
@@ -53,5 +53,5 @@ generateMarkdown.Rmd file.
 
 ## Outputs produced:
 
-* Tidy dataset file DatasetHumanActivityRecognitionUsingSmartphones.txt (tab-delimited text)
-* Codebook file codebook.md (Markdown)
+1. Tidy dataset file DatasetHumanActivityRecognitionUsingSmartphones.txt (tab-delimited text)
+2. Codebook file codebook.md (Markdown)
