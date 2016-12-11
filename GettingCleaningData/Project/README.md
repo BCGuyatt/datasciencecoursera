@@ -35,23 +35,23 @@ Good luck!
 
 ## To run script for this project:
 
-1) From the GitHub Repository download the following files to your working directory: 
-Dataset.zip, 
-generateCodebook.Rmd, 
-README.txt, 
-run_analysis.r.
-2) Unzip the Dataset.zip using a archive package such as 7zip. 
+1. From the GitHub Repository download the following files to your working directory: 
+* Dataset.zip, 
+* generateCodebook.Rmd, 
+* README.txt, 
+* run_analysis.r.
+2. Unzip the Dataset.zip using a archive package such as 7zip. 
 This must be unpacked to a sub folder in the working directory called: 
 "UCI HAR Dataset"
-2) Open the r_script called run_analysis.r using a text editor
-3) On line 14 of the script add your working directory pathname, 
+3. Open the r_script called run_analysis.r using a text editor
+4. On line 14 of the script add your working directory pathname, 
 this working directory should contain the zip file folder 
 "UCI HAR Dataset" as per step 2 above.
-4) Run the R script - it runs the analysis, creates the tidy data 
+5. Run the R script - it runs the analysis, creates the tidy data 
 text file and generates the codebook at the end using the 
 generateMarkdown.Rmd file.
 
-## Outputs produced
+## Outputs produced:
 
-Tidy dataset file DatasetHumanActivityRecognitionUsingSmartphones.txt (tab-delimited text)
-Codebook file codebook.md (Markdown)
+* Tidy dataset file DatasetHumanActivityRecognitionUsingSmartphones.txt (tab-delimited text)
+* Codebook file codebook.md (Markdown)
